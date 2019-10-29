@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Module.</title>
+  <script type="application/javascript">
+    function draw() {
+      var canvas = document.getElementById("canvas");
+      if (canvas.getContext) {
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        var lingrad = ctx.createLinearGradient(500,200, 500, 500);
+		lingrad.addColorStop(0, '#00ABEB');
+		lingrad.addColorStop(0.5, '#fff');
+		lingrad.addColorStop(0.6, '#90EE90');
+		lingrad.addColorStop(1, '#228B22');
+		ctx.fillStyle = lingrad;
+		ctx.fillRect(0,0,500,600);
+        ctx.lineWidth = 3;
+		ctx.strokeStyle = "#333";
+	
+		
+		
+var gradient = ctx.createRadialGradient(400,420,50, 440,460,250);
+        gradient.addColorStop(0, '#DC143C');
+        gradient.addColorStop(0.3, '#FA8072');
+        ctx.fillStyle = gradient;
+ctx.fillStyle=gradient;
+ctx.beginPath();
+ctx.moveTo(419, 432);
+ctx.bezierCurveTo(240, 407, 456, 165, 438, 410);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(435, 418);
+ctx.bezierCurveTo(456, 420, 465, 395, 438, 410);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(435, 418);
+ctx.bezierCurveTo(456, 427, 455, 449, 432, 424);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(420, 428);
+ctx.bezierCurveTo(424, 459, 443, 457, 432, 424);
+ctx.fill();
+ctx.beginPath();
+ctx.arc(424, 415, 15, 0, 2*Math.PI);
+ctx.fill();
+var grdnt = ctx.createRadialGradient(320,320,10, 380,380,350);
+        grdnt.addColorStop(0, '#F08080');
+        grdnt.addColorStop(0.3, '#FA8072');
+        ctx.fillStyle = grdnt;
+ctx.fillStyle=grdnt;
+ctx.beginPath();
+ctx.moveTo(326, 364);
+ctx.bezierCurveTo(381, 346, 410, 368, 338, 413);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(328, 362);
+ctx.bezierCurveTo(296, 383, 321, 400, 330, 378);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(339, 385);
+ctx.bezierCurveTo(320, 403, 322, 396, 330, 378);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(339, 385);
+ctx.bezierCurveTo(320, 407, 322, 425, 351, 404);
+ctx.fill();
+ctx.fillStyle='#FFEFD5';
+ctx.beginPath();
+ctx.arc(390, 333, 15, 0, 2*Math.PI);
+ctx.fill();
+
+ctx.fillStyle='black';
+ctx.beginPath();
+ctx.arc(395, 338, 5, 0, 2*Math.PI);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(388, 309);
+ctx.bezierCurveTo(394, 308, 389, 309, 389, 320);
+ctx.stroke();
+ctx.beginPath();
+ctx.moveTo(397, 311);
+ctx.bezierCurveTo(398, 308, 399, 309, 395, 319);
+ctx.stroke();
+ctx.beginPath();
+ctx.moveTo(406, 310);
+ctx.bezierCurveTo(407, 310, 409, 309, 402, 322);
+ctx.stroke();
+ctx.fillStyle='brown';
+ctx.beginPath();
+ctx.moveTo(364, 323);
+ctx.bezierCurveTo(321, 338, 331, 333, 354, 342);
+ctx.fill();
+
+
+
+var gradient = ctx.createRadialGradient(50,320,50, 80,360,250);
+        gradient.addColorStop(0, '#40E0D0');
+        gradient.addColorStop(0.3, '#008B8B	');
+        ctx.fillStyle = gradient;
+ctx.fillStyle=gradient;
+ctx.beginPath();
+ctx.moveTo(77, 329);
+ctx.bezierCurveTo(28, 347, 52, 440, 119, 433);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(77, 329);
+ctx.bezierCurveTo(138, 305, 161, 401, 117, 434);
+ctx.fill();
+var gra = ctx.createRadialGradient(10,320,50, 180,480,250);
+        gra.addColorStop(0, '#40E0D0');
+        gra.addColorStop(0.3, '#008B8B	');
+        ctx.fillStyle = gra;
+ctx.fillStyle=gra;
+ctx.beginPath();
+ctx.arc(22, 395, 8, 0, 2*Math.PI);
+ctx.fill();
+ctx.beginPath();
+ctx.arc(40, 392, 8, 0, 2*Math.PI);
+ctx.fill();
+ctx.beginPath();
+ctx.arc(32, 393, 8, 0, 2*Math.PI);
+ctx.fill();
+ctx.beginPath();
+ctx.arc(48, 392, 8, 0, 2*Math.PI);
+ctx.fill();
+ctx.beginPath();
+ctx.arc(142, 354, 10, 0, 2*Math.PI);
+ctx.fill();
+ctx.beginPath();
+ctx.arc(152, 350, 10, 0, 2*Math.PI);
+ctx.fill();
+ctx.beginPath();
+ctx.arc(162, 346, 10, 0, 2*Math.PI);
+ctx.fill();
+ctx.beginPath();
+ctx.arc(172, 343, 10, 0, 2*Math.PI);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(18, 402);
+ctx.bezierCurveTo(-5, 396, 15, 443, 58, 394);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(18, 402);
+ctx.bezierCurveTo(-1, 396, 8, 387, 16, 391);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(51, 382);
+ctx.bezierCurveTo(31, 394, -5, 370, 15, 391);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(130, 347);
+ctx.bezierCurveTo(164, 347, 174, 300, 173, 334);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(178, 344);
+ctx.bezierCurveTo(194, 331, 186, 327, 173, 331);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(178, 344);
+ctx.bezierCurveTo(194, 331, 215, 367, 138, 366);
+ctx.fill();
+ctx.fillStyle='brown';
+ctx.beginPath();
+ctx.moveTo(81, 362);
+ctx.bezierCurveTo(88, 352, 93, 353, 98, 355);
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(81, 362);
+ctx.bezierCurveTo(106, 401, 105, 383, 98, 355);
+ctx.fill();
+ctx.beginPath();
+ctx.fillStyle='#E0FFFF';
+ctx.arc(65, 350, 15, 0, 2*Math.PI);
+ctx.fill();
+ctx.beginPath();
+ctx.arc(100, 335, 15, 0, 2*Math.PI);
+ctx.fill();
+ctx.fillStyle='black';
+ctx.beginPath();
+ctx.arc(65, 350, 5, 0, 2*Math.PI);
+ctx.fill();
+ctx.beginPath();
+ctx.arc(100, 335, 5, 0, 2*Math.PI);
+ctx.fill();
+	}
+}
+
+
+</script>
+  <style type="text/css">
+      canvas { border: 1px solid black; }
+    </style>
+ </head>
+ <body onload="draw();">
+   <canvas id="canvas" width="500" height="600"></canvas>
+ </body>
+</html>
